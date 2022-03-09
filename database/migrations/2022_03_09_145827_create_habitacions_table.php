@@ -20,7 +20,7 @@ class CreateHabitacionsTable extends Migration
             $table->string('image')->nullable();
             $table->text('body')->nullable();
             $table->text('iframe')->nullable();            
-            $table->bigInteger('casa_id')->unsigned();
+            
             $table->foreignId('casa_id')->references('id')->on('casas');
             $table->timestamps();                             
                         

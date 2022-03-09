@@ -21,6 +21,8 @@ class Ubuntus extends Model
      */
     protected $fillable = [
         'name',
+        'fecha',
+        'valor',
         'cedula',
         'email',
         'phone',

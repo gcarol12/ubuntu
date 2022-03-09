@@ -16,6 +16,8 @@ class CreateUbuntusesTable extends Migration
         Schema::create('ubuntuses', function (Blueprint $table) {          
             $table->bigIncrements('id');
             $table->string('name');
+            $table->string('fecha');
+            $table->string('valor');
             $table->string('cedula')->unique();
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
@@ -24,7 +26,7 @@ class CreateUbuntusesTable extends Migration
             $table->string('phone')->unique();
             $table->string('contact_name');
             $table->string('contact_phone')->unique();  
-            $table->bigInteger('habitacion_id')->unsigned();        
+                 
             $table->foreignId('habitacion_id')->references('id')->on('habitacions');         
             $table->timestamps();
         });

@@ -78,12 +78,10 @@
             </div>
         </div>
     </div>
-</div>
-
-<div class="container">  
+</div><div class="container">  
              
     <a class="navbar-brand " href="{{ url('home') }}">
-       <img src="https://i.imgur.com/mwIHkUF.jpg" width=" 100%" align="center" title="logo alertas tempranas sin inicio de sesión" />
+       <img src="" width=" 100%" align="center" title="" />
     </a>                                                
 </div>
 

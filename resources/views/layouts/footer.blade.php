@@ -23,7 +23,7 @@
 
               <!-- Right Side -->  
                     <a class="navbar-brand " href="{{ url('home') }}">
-                        <img src="https://i.imgur.com/qDFttvD.jpg" width=" 70%" align="right" title="logo alertas tempranas" />
+                        <img src=" width=" 70%" align="right" title="" />
                     </a>                                                
              </div>
         </div>

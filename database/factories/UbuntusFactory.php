@@ -26,6 +26,8 @@ class UbuntusFactory extends Factory
         return [
             'ubuntus_id'=> 1,
             'name'=> $this->faker->sentence,
+            'fecha'=> $this->faker->sentence,
+            'valor'=> $this->faker->sentence,
             'cedula'=> $this->faker->sentence,
             'email'=> $this->faker->sentence,
             'password'=> $this->faker->sentence,
